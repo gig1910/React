@@ -1,0 +1,78 @@
+body {
+    background-color: silver;
+    font-size: 14px;
+}
+
+.LoginDialog {
+    position: relative;
+    margin-top: 25%;
+    margin-left: 40%;
+    top: -100px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid navy;
+    width: 200px;
+    height: 100px;
+}
+
+.LoginDialog table tbody td {
+    padding: 5px;
+}
+
+input.error {
+    color: red;
+    border: 1px solid red;
+}
+
+.ChatList {
+    height: 600px;
+    width: 98%
+}
+
+.ChatList ul {
+    height: 600px;
+    width: 98%;
+    overflow: scroll;
+    border: 1px solid navy;
+    padding: 10px;
+    background-color: white;
+}
+
+.ChatList input {
+    width: 88%;
+}
+
+.ChatList button {
+    width: 10%;
+}
+
+.ChatList li span.self {
+    font-style: italic;
+}
+
+.ChatList li span.another {
+    font-weight: bold;
+}
+
+div.errNotify {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    height: 70px;
+    background-color: antiquewhite;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+    padding: 10px;
+}
+
+div.errNotify div.clsBtn {
+    position: relative;
+    top: 0px;
+    left: 290px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
